@@ -1,0 +1,711 @@
+Run ID  : 20260330T233008_ff3aa8
+Command : lsblk -d -o NAME,SIZE,MODEL,ROTA
+Targets : 24 node(s)
+Sudo    : false
+────────────────────────────────────────────────────────────
+
+── node1 (172.16.12.162) ✓ OK ──
+  stdout: NAME      SIZE MODEL        ROTA
+loop0       4K                 0
+loop1   345.7M                 0
+loop2   332.2M                 0
+loop3    63.8M                 0
+loop4    63.8M                 0
+loop6      74M                 0
+loop7    66.8M                 0
+loop8   251.7M                 0
+loop9   254.9M                 0
+loop10   16.4M                 0
+loop11   16.4M                 0
+loop12    516M                 0
+loop13  531.4M                 0
+loop14  606.1M                 0
+loop15   91.7M                 0
+loop16  118.4M                 0
+loop17  117.6M                 0
+loop18   10.8M                 0
+loop19    395M                 0
+loop20   15.6M                 0
+loop21   48.1M                 0
+loop22   48.4M                 0
+loop23    576K                 0
+loop24    576K                 0
+loop25   66.8M                 0
+loop26     74M                 0
+nvme0n1 953.9G ABSSDNVMe1TB    0
+  exit=0  duration=
+
+── node2 (172.16.12.33) ✓ OK ──
+  stdout: NAME      SIZE MODEL        ROTA
+loop0    73.9M                 0
+loop1       4K                 0
+loop2      74M                 0
+loop3     4.9M                 0
+loop4     5.2M                 0
+loop6    66.8M                 0
+loop7   254.9M                 0
+loop8   245.1M                 0
+loop9    16.4M                 0
+loop10   16.4M                 0
+loop11    516M                 0
+loop12  606.1M                 0
+loop13  531.4M                 0
+loop14   91.7M                 0
+loop15  118.4M                 0
+loop16  117.6M                 0
+loop17    395M                 0
+loop18   10.8M                 0
+loop19   15.5M                 0
+loop20   48.4M                 0
+loop21   49.3M                 0
+loop22    576K                 0
+loop23    576K                 0
+loop24  227.1M                 0
+loop25  227.1M                 0
+loop26   66.8M                 0
+nvme0n1 953.9G ABSSDNVMe1TB    0
+  exit=0  duration=
+
+── node3 (172.16.12.189) ✓ OK ──
+  stdout: NAME      SIZE MODEL        ROTA
+loop0       4K                 0
+loop1      74M                 0
+loop2    66.8M                 0
+loop3   274.4M                 0
+loop6   254.9M                 0
+loop7     516M                 0
+loop8    18.5M                 0
+loop9    16.4M                 0
+loop10  531.4M                 0
+loop11  618.3M                 0
+loop12   91.7M                 0
+loop13    1.2G                 0
+loop14  118.4M                 0
+loop15    1.2G                 0
+loop16  117.6M                 0
+loop17    395M                 0
+loop18  290.8M                 0
+loop19   15.5M                 0
+loop20   10.8M                 0
+loop21   48.1M                 0
+loop22   48.4M                 0
+loop23    576K                 0
+loop24    568K                 0
+loop25     74M                 0
+loop26   66.8M                 0
+nvme0n1 953.9G ABSSDNVMe1TB    0
+  exit=0  duration=
+
+── node4 (172.16.12.203) ✓ OK ──
+  stdout: NAME      SIZE MODEL        ROTA
+loop0   313.1M                 0
+loop1       4K                 0
+loop2   316.8M                 0
+loop3    63.8M                 0
+loop4    73.9M                 0
+loop6      74M                 0
+loop7    66.8M                 0
+loop8    63.7M                 0
+loop9   251.6M                 0
+loop10  254.9M                 0
+loop11   16.4M                 0
+loop12   16.4M                 0
+loop13    7.4M                 0
+loop14      6M                 0
+loop15  505.1M                 0
+loop16  606.1M                 0
+loop17   91.7M                 0
+loop18  112.9M                 0
+loop19  117.6M                 0
+loop20    395M                 0
+loop21   15.5M                 0
+loop22   15.6M                 0
+loop23   48.4M                 0
+loop24   48.1M                 0
+loop25    568K                 0
+loop26    576K                 0
+loop27   64.4M                 0
+loop28   64.7M                 0
+loop29   66.8M                 0
+nvme0n1 953.9G ABSSDNVMe1TB    0
+  exit=0  duration=
+
+── node5 (172.16.12.105) ✓ OK ──
+  stdout: NAME      SIZE MODEL        ROTA
+loop0       4K                 0
+loop1   329.4M                 0
+loop2   345.8M                 0
+loop3    63.8M                 0
+loop4      74M                 0
+loop5    63.8M                 0
+loop6      74M                 0
+loop7    66.8M                 0
+loop8   254.9M                 0
+loop9   246.4M                 0
+loop10   16.4M                 0
+loop11   16.4M                 0
+loop12    193M                 0
+loop13  242.6M                 0
+loop15    516M                 0
+loop16  606.1M                 0
+loop17   91.7M                 0
+loop18  114.4M                 0
+loop19  117.6M                 0
+loop20    395M                 0
+loop21   15.5M                 0
+loop22   10.8M                 0
+loop23   48.1M                 0
+loop24    576K                 0
+loop25   48.4M                 0
+loop26    576K                 0
+loop27  238.7M                 0
+loop28  278.4M                 0
+loop29  531.4M                 0
+nvme0n1 953.9G ABSSDNVMe1TB    0
+  exit=0  duration=
+
+── node6 (172.16.12.17) ✓ OK ──
+  stdout: NAME      SIZE MODEL                      ROTA
+loop0   332.2M                               0
+loop1       4K                               0
+loop2   358.2M                               0
+loop3    63.8M                               0
+loop4    63.8M                               0
+loop5      74M                               0
+loop6      74M                               0
+loop7    66.8M                               0
+loop8   251.6M                               0
+loop9   254.9M                               0
+loop11   16.4M                               0
+loop12  210.7M                               0
+loop13    193M                               0
+loop14    516M                               0
+loop15  531.4M                               0
+loop16  606.1M                               0
+loop17  118.4M                               0
+loop18  117.6M                               0
+loop19   91.7M                               0
+loop20    395M                               0
+loop21   15.5M                               0
+loop22   48.1M                               0
+loop23   48.4M                               0
+loop24   15.6M                               0
+loop25    576K                               0
+loop26    576K                               0
+loop27   16.4M                               0
+nvme0n1 953.9G SAMSUNG MZVL41T0HBLB-00BH1    0
+  exit=0  duration=
+
+── node7 (172.16.12.82) ✓ OK ──
+  stdout: NAME      SIZE MODEL        ROTA
+loop0       4K                 0
+loop1   346.1M                 0
+loop2    63.8M                 0
+loop3   345.7M                 0
+loop4    63.8M                 0
+loop5    73.9M                 0
+loop6      74M                 0
+loop8    66.8M                 0
+loop9   254.6M                 0
+loop10  254.9M                 0
+loop11   16.4M                 0
+loop12   16.4M                 0
+loop13  505.1M                 0
+loop14  589.6M                 0
+loop15    516M                 0
+loop16  606.1M                 0
+loop17   91.7M                 0
+loop18  443.2M                 0
+loop19      2G                 0
+loop20      2G                 0
+loop21    1.3G                 0
+loop22    728K                 0
+loop23    1.4G                 0
+loop24  117.6M                 0
+loop25    728K                 0
+loop26  141.3M                 0
+loop27  117.6M                 0
+loop28  141.6M                 0
+loop29  211.5M                 0
+loop30  290.8M                 0
+loop31   10.8M                 0
+loop32   15.5M                 0
+loop33   48.1M                 0
+loop34   48.4M                 0
+loop35    576K                 0
+loop36    576K                 0
+loop37   66.8M                 0
+nvme0n1 953.9G ABSSDNVMe1TB    0
+  exit=0  duration=
+
+── node8 (172.16.12.63) ✓ OK ──
+  stdout: NAME      SIZE MODEL        ROTA
+loop0   120.3M                 0
+loop1       4K                 0
+loop2    55.5M                 0
+loop3    55.5M                 0
+loop4    73.9M                 0
+loop5    66.8M                 0
+loop6    66.8M                 0
+loop7   250.1M                 0
+loop8    73.9M                 0
+loop9    16.4M                 0
+loop10  254.9M                 0
+loop11   16.4M                 0
+loop12    516M                 0
+loop13  618.3M                 0
+loop14  531.4M                 0
+loop15  404.4M                 0
+loop16    1.3M                 0
+loop17    1.3M                 0
+loop18   91.7M                 0
+loop19  117.6M                 0
+loop20  118.4M                 0
+loop21  207.4M                 0
+loop22    395M                 0
+loop23  362.3M                 0
+loop24    748K                 0
+loop25   15.5M                 0
+loop26   15.6M                 0
+loop27   48.1M                 0
+loop28   48.4M                 0
+loop29    576K                 0
+loop30    576K                 0
+nvme0n1 953.9G ABSSDNVMe1TB    0
+  exit=0  duration=
+
+── node9 (172.16.12.245) ✓ OK ──
+  stdout: NAME      SIZE MODEL        ROTA
+loop0      74M                 0
+loop1      74M                 0
+loop2       4K                 0
+loop3   254.9M                 0
+loop4   251.6M                 0
+loop5    66.8M                 0
+loop6    16.4M                 0
+loop7    16.4M                 0
+loop8   505.1M                 0
+loop9   606.1M                 0
+loop10    516M                 0
+loop11   91.7M                 0
+loop12  117.6M                 0
+loop13  104.8M                 0
+loop14    395M                 0
+loop15   15.6M                 0
+loop16   15.5M                 0
+loop17   49.3M                 0
+loop18   48.4M                 0
+loop19    568K                 0
+loop20    576K                 0
+nvme0n1 953.9G ABSSDNVMe1TB    0
+  exit=0  duration=
+
+── node10 (172.16.12.71) ✓ OK ──
+  stdout: NAME      SIZE MODEL        ROTA
+loop0       4K                 0
+loop1      74M                 0
+loop2      74M                 0
+loop3    66.8M                 0
+loop4    18.5M                 0
+loop5   246.3M                 0
+loop6   254.9M                 0
+loop7    16.4M                 0
+loop8     516M                 0
+loop9   531.4M                 0
+loop10  606.1M                 0
+loop11   91.7M                 0
+loop12  118.4M                 0
+loop13  117.6M                 0
+loop14    395M                 0
+loop15   15.5M                 0
+loop16   15.6M                 0
+loop17   48.1M                 0
+loop18   48.4M                 0
+loop19    568K                 0
+loop20    576K                 0
+nvme0n1 953.9G ABSSDNVMe1TB    0
+  exit=0  duration=
+
+── node11 (172.16.12.64) ✓ OK ──
+  stdout: NAME      SIZE MODEL                      ROTA
+loop0       4K                               0
+loop1    55.5M                               0
+loop2      74M                               0
+loop3      74M                               0
+loop4   254.9M                               0
+loop5   254.6M                               0
+loop6    18.5M                               0
+loop7    66.8M                               0
+loop8    16.4M                               0
+loop9    55.5M                               0
+loop10  164.8M                               0
+loop11    516M                               0
+loop12  531.4M                               0
+loop13  606.1M                               0
+loop14   91.7M                               0
+loop15  117.6M                               0
+loop16  118.4M                               0
+loop17   10.8M                               0
+loop18    395M                               0
+loop19   15.5M                               0
+loop20   48.1M                               0
+loop21    576K                               0
+loop22   48.4M                               0
+loop23  139.3M                               0
+loop24  139.4M                               0
+loop25    576K                               0
+nvme0n1 953.9G SAMSUNG MZVL41T0HBLB-00BH1    0
+  exit=0  duration=
+
+── node12 (172.16.12.69) ✓ OK ──
+  stdout: NAME      SIZE MODEL                      ROTA
+loop0       4K                               0
+loop1      74M                               0
+loop2      74M                               0
+loop3    66.8M                               0
+loop4    66.8M                               0
+loop5   273.5M                               0
+loop6   251.7M                               0
+loop7    16.4M                               0
+loop8     516M                               0
+loop9   531.4M                               0
+loop10  606.1M                               0
+loop11   91.7M                               0
+loop12  118.4M                               0
+loop13  117.6M                               0
+loop14    395M                               0
+loop15   10.8M                               0
+loop16   15.5M                               0
+loop17   48.4M                               0
+loop18   48.1M                               0
+loop19    576K                               0
+loop20    576K                               0
+loop21   16.4M                               0
+nvme0n1 953.9G SAMSUNG MZVL41T0HBLB-00BH1    0
+  exit=0  duration=
+
+── node13 (172.16.12.62) ✓ OK ──
+  stdout: NAME      SIZE MODEL                      ROTA
+loop0       4K                               0
+loop1    73.9M                               0
+loop2      74M                               0
+loop3    66.8M                               0
+loop4   254.9M                               0
+loop5   246.4M                               0
+loop6    11.1M                               0
+loop7    16.4M                               0
+loop8     516M                               0
+loop9    91.7M                               0
+loop10  531.4M                               0
+loop11  114.4M                               0
+loop12  606.1M                               0
+loop13  117.6M                               0
+loop14    395M                               0
+loop15   10.8M                               0
+loop16   15.5M                               0
+loop17   48.1M                               0
+loop18   48.4M                               0
+loop19    576K                               0
+loop20    576K                               0
+nvme0n1 953.9G SAMSUNG MZVL41T0HBLB-00BH1    0
+  exit=0  duration=
+
+── node14 (172.16.12.60) ✓ OK ──
+  stdout: NAME      SIZE MODEL                      ROTA
+loop0      74M                               0
+loop1       4K                               0
+loop2    66.8M                               0
+loop3      74M                               0
+loop5   254.9M                               0
+loop6    18.5M                               0
+loop7    16.4M                               0
+loop8   516.2M                               0
+loop9   531.4M                               0
+loop10   91.7M                               0
+loop11  606.1M                               0
+loop12  118.4M                               0
+loop13  117.6M                               0
+loop14    395M                               0
+loop15   50.8M                               0
+loop16   15.5M                               0
+loop17   10.8M                               0
+loop18   48.4M                               0
+loop19    568K                               0
+loop20    576K                               0
+loop21  273.5M                               0
+nvme0n1 953.9G SAMSUNG MZVL41T0HBLB-00BH1    0
+  exit=0  duration=
+
+── master (172.16.12.90) ✓ OK ──
+  stdout: NAME      SIZE MODEL                      ROTA
+loop0       4K                               0
+loop1      74M                               0
+loop2      74M                               0
+loop3    66.8M                               0
+loop4   245.6M                               0
+loop5   254.9M                               0
+loop6    18.5M                               0
+loop7    16.4M                               0
+loop8     516M                               0
+loop9   531.4M                               0
+loop10  606.1M                               0
+loop11   91.7M                               0
+loop12  114.4M                               0
+loop13  117.6M                               0
+loop14    395M                               0
+loop15   15.5M                               0
+loop16   15.6M                               0
+loop17   48.1M                               0
+loop18   48.4M                               0
+loop19    576K                               0
+loop20    576K                               0
+loop21  227.1M                               0
+loop22  227.1M                               0
+nvme0n1 953.9G SAMSUNG MZVL41T0HBLB-00BH1    0
+  exit=0  duration=
+
+── node15 (172.16.12.86) ✓ OK ──
+  stdout: NAME      SIZE MODEL                      ROTA
+loop0       4K                               0
+loop1    73.9M                               0
+loop2    73.9M                               0
+loop3   274.4M                               0
+loop4   257.9M                               0
+loop5    11.1M                               0
+loop6    11.1M                               0
+loop7    66.8M                               0
+loop8     516M                               0
+loop9    91.7M                               0
+loop10  104.8M                               0
+loop11  112.9M                               0
+loop13   10.7M                               0
+loop14   44.4M                               0
+loop15   50.8M                               0
+loop16    568K                               0
+loop17    576K                               0
+loop18  531.4M                               0
+loop19   15.5M                               0
+loop20  606.1M                               0
+loop21    395M                               0
+nvme0n1 953.9G SAMSUNG MZVL41T0HBLB-00BH1    0
+  exit=0  duration=
+
+── node16 (172.16.12.65) ✓ OK ──
+  stdout: NAME      SIZE MODEL        ROTA
+loop0    73.9M                 0
+loop1       4K                 0
+loop2    73.9M                 0
+loop3   269.8M                 0
+loop4   251.7M                 0
+loop5    18.5M                 0
+loop6   505.1M                 0
+loop7    11.1M                 0
+loop8    91.7M                 0
+loop9     516M                 0
+loop10   48.4M                 0
+loop11  118.4M                 0
+loop13   10.8M                 0
+loop15   48.1M                 0
+loop16    568K                 0
+loop17    576K                 0
+loop18   66.8M                 0
+loop19   15.5M                 0
+loop20  117.6M                 0
+loop21    395M                 0
+loop22  606.1M                 0
+nvme0n1 953.9G ABSSDNVMe1TB    0
+  exit=0  duration=
+
+── node17 (172.16.12.68) ✓ OK ──
+  stdout: NAME      SIZE MODEL                      ROTA
+loop0       4K                               0
+loop1    73.9M                               0
+loop2      74M                               0
+loop3     258M                               0
+loop4   246.3M                               0
+loop5    66.8M                               0
+loop6    18.5M                               0
+loop7   505.1M                               0
+loop8     516M                               0
+loop9    91.7M                               0
+loop10  112.9M                               0
+loop11  114.4M                               0
+loop12   66.8M                               0
+loop13   10.8M                               0
+loop14   10.8M                               0
+loop15   50.8M                               0
+loop16   48.1M                               0
+loop17    576K                               0
+loop18    576K                               0
+loop19   16.4M                               0
+loop20    395M                               0
+loop21  606.1M                               0
+nvme0n1 953.9G SAMSUNG MZVL41T0HBLB-00BH1    0
+  exit=0  duration=
+
+── node18 (172.16.12.97) ✓ OK ──
+  stdout: NAME      SIZE MODEL        ROTA
+loop0      74M                 0
+loop1       4K                 0
+loop2    73.9M                 0
+loop3   246.3M                 0
+loop4   251.6M                 0
+loop5    18.5M                 0
+loop6    11.1M                 0
+loop7   505.1M                 0
+loop8     516M                 0
+loop9    91.7M                 0
+loop11  118.4M                 0
+loop12   10.8M                 0
+loop13   49.3M                 0
+loop14   10.8M                 0
+loop15   48.1M                 0
+loop16    576K                 0
+loop17    576K                 0
+loop18  117.6M                 0
+nvme0n1 953.9G ABSSDNVMe1TB    0
+  exit=0  duration=
+
+── node19 (172.16.12.7) ✓ OK ──
+  stdout: NAME      SIZE MODEL                      ROTA
+loop0       4K                               0
+loop1      74M                               0
+loop2      74M                               0
+loop3   252.1M                               0
+loop4   251.7M                               0
+loop5    11.1M                               0
+loop6    18.5M                               0
+loop7   505.1M                               0
+loop8     516M                               0
+loop9    91.7M                               0
+loop10  118.4M                               0
+loop11  118.4M                               0
+loop12   10.7M                               0
+loop13   50.8M                               0
+loop14   10.8M                               0
+loop15   48.1M                               0
+loop16    576K                               0
+loop17    576K                               0
+nvme0n1 953.9G SAMSUNG MZVL41T0HBLB-00BH1    0
+  exit=0  duration=
+
+── node20 (172.16.12.20) ✓ OK ──
+  stdout: NAME      SIZE MODEL                      ROTA
+loop0       4K                               0
+loop1   332.2M                               0
+loop2   358.2M                               0
+loop3    63.8M                               0
+loop4    63.8M                               0
+loop5    73.9M                               0
+loop6      74M                               0
+loop7   251.7M                               0
+loop8   254.6M                               0
+loop10   16.4M                               0
+loop11    516M                               0
+loop12  531.4M                               0
+loop13   91.7M                               0
+loop14  117.6M                               0
+loop15  117.6M                               0
+loop16   10.8M                               0
+loop17   10.8M                               0
+loop18   66.8M                               0
+loop19   48.1M                               0
+loop20    576K                               0
+loop21    576K                               0
+loop22   48.4M                               0
+loop23   16.4M                               0
+loop24    395M                               0
+loop25  606.1M                               0
+nvme0n1 953.9G SAMSUNG MZVL41T0HBLB-00BH1    0
+  exit=0  duration=
+
+── node21 (172.16.12.5) ✓ OK ──
+  stdout: NAME      SIZE MODEL        ROTA
+loop0    73.9M                 0
+loop1       4K                 0
+loop2    73.9M                 0
+loop4   245.1M                 0
+loop5    11.1M                 0
+loop6    11.1M                 0
+loop7   505.1M                 0
+loop8     516M                 0
+loop9    91.7M                 0
+loop10   48.4M                 0
+loop11  114.4M                 0
+loop12  117.6M                 0
+loop13   10.5M                 0
+loop14   10.8M                 0
+loop15   66.8M                 0
+loop16   44.4M                 0
+loop17    568K                 0
+loop18    576K                 0
+loop19  273.5M                 0
+loop20    395M                 0
+loop21  606.1M                 0
+nvme0n1 953.9G ABSSDNVMe1TB    0
+  exit=0  duration=
+
+── node22 (172.16.12.32) ✓ OK ──
+  stdout: NAME      SIZE MODEL        ROTA
+loop0   346.1M                 0
+loop1   358.2M                 0
+loop2       4K                 0
+loop3    63.8M                 0
+loop4    63.8M                 0
+loop5   273.5M                 0
+loop6    66.8M                 0
+loop7      74M                 0
+loop9   254.9M                 0
+loop10   18.5M                 0
+loop11   16.4M                 0
+loop12  516.2M                 0
+loop13  531.4M                 0
+loop14  606.1M                 0
+loop15   91.7M                 0
+loop16  114.4M                 0
+loop17  117.6M                 0
+loop18    395M                 0
+loop19   15.5M                 0
+loop20   15.6M                 0
+loop21   50.9M                 0
+loop22   48.4M                 0
+loop23    576K                 0
+loop24    576K                 0
+loop25   64.7M                 0
+loop26   64.7M                 0
+loop27     74M                 0
+nvme0n1 953.9G ABSSDNVMe1TB    0
+  exit=0  duration=
+
+── node23 (172.16.12.146) ✓ OK ──
+  stdout: NAME      SIZE MODEL        ROTA
+loop0    73.9M                 0
+loop1       4K                 0
+loop2      74M                 0
+loop3    66.8M                 0
+loop4   249.1M                 0
+loop5   251.6M                 0
+loop7    18.5M                 0
+loop8   505.1M                 0
+loop9     516M                 0
+loop10  606.1M                 0
+loop11   91.7M                 0
+loop12  118.4M                 0
+loop13  117.6M                 0
+loop14    395M                 0
+loop15   10.8M                 0
+loop16   15.5M                 0
+loop17   50.8M                 0
+loop18   48.1M                 0
+loop19    576K                 0
+loop20    576K                 0
+loop21   66.8M                 0
+loop22   16.4M                 0
+nvme0n1 953.9G ABSSDNVMe1TB    0
+  exit=0  duration=
+
+════════════════════════════════════════════════════════════
+SUMMARY: 24 total | 24 succeeded | 0 failed | 0 unreachable | 0 timed out | 0 retried
+════════════════════════════════════════════════════════════
+
+Log written: logs/run_20260330T233008_ff3aa8.json

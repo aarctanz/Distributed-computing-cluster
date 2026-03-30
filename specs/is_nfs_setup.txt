@@ -1,0 +1,225 @@
+Run ID  : 20260331T000440_cd555d
+Command : df -h | grep -v tmpfs | grep -v loop | grep -v udev
+Targets : 24 node(s)
+Sudo    : false
+────────────────────────────────────────────────────────────
+
+── node1 (172.16.12.162) ✓ OK ──
+  stdout: Filesystem                  Size  Used Avail Use% Mounted on
+/dev/nvme0n1p5              123G   30G   87G  26% /
+efivarfs                    246K  142K  100K  59% /sys/firmware/efi/efivars
+/dev/nvme0n1p1              256M   89M  168M  35% /boot/efi
+/dev/nvme0n1p6              496G   20G  451G   5% /home
+master:/srv/cluster_shared  615G   70G  515G  12% /srv/cluster_shared
+  exit=0  duration=
+
+── node2 (172.16.12.33) ✓ OK ──
+  stdout: Filesystem                  Size  Used Avail Use% Mounted on
+/dev/nvme0n1p5              126G   23G   98G  19% /
+efivarfs                    246K  149K   93K  62% /sys/firmware/efi/efivars
+/dev/nvme0n1p6              480G  2.3G  453G   1% /home
+/dev/nvme0n1p1              256M   94M  163M  37% /boot/efi
+master:/srv/cluster_shared  615G   70G  515G  12% /srv/cluster_shared
+  exit=0  duration=
+
+── node3 (172.16.12.189) ✓ OK ──
+  stdout: Filesystem                  Size  Used Avail Use% Mounted on
+/dev/nvme0n1p5              130G   24G  101G  19% /
+efivarfs                    246K  177K   65K  74% /sys/firmware/efi/efivars
+/dev/nvme0n1p6              491G  248M  466G   1% /home
+/dev/nvme0n1p1              256M   89M  168M  35% /boot/efi
+master:/srv/cluster_shared  615G   70G  515G  12% /srv/cluster_shared
+  exit=0  duration=
+
+── node4 (172.16.12.203) ✓ OK ──
+  stdout: Filesystem                  Size  Used Avail Use% Mounted on
+/dev/nvme0n1p5              129G   21G  101G  18% /
+efivarfs                    246K  167K   75K  69% /sys/firmware/efi/efivars
+/dev/nvme0n1p6              490G  1.4G  464G   1% /home
+/dev/nvme0n1p1              256M   89M  168M  35% /boot/efi
+master:/srv/cluster_shared  615G   70G  515G  12% /srv/cluster_shared
+  exit=0  duration=
+
+── node5 (172.16.12.105) ✓ OK ──
+  stdout: Filesystem                  Size  Used Avail Use% Mounted on
+/dev/nvme0n1p5              127G   23G   98G  19% /
+efivarfs                    246K  164K   78K  68% /sys/firmware/efi/efivars
+/dev/nvme0n1p6              492G  5.5G  462G   2% /home
+/dev/nvme0n1p1              256M   89M  168M  35% /boot/efi
+master:/srv/cluster_shared  615G   70G  515G  12% /srv/cluster_shared
+  exit=0  duration=
+
+── node6 (172.16.12.17) ✓ OK ──
+  stdout: Filesystem                  Size  Used Avail Use% Mounted on
+/dev/nvme0n1p4              127G   22G   99G  19% /
+efivarfs                    246K  150K   92K  62% /sys/firmware/efi/efivars
+/dev/nvme0n1p5              491G  5.0G  461G   2% /home
+/dev/nvme0n1p1              256M  165M   92M  65% /boot/efi
+master:/srv/cluster_shared  615G   70G  515G  12% /srv/cluster_shared
+  exit=0  duration=
+
+── node7 (172.16.12.82) ✓ OK ──
+  stdout: Filesystem                  Size  Used Avail Use% Mounted on
+/dev/nvme0n1p5              132G   29G   97G  23% /
+efivarfs                    246K  171K   71K  71% /sys/firmware/efi/efivars
+/dev/nvme0n1p6              484G  4.1G  455G   1% /home
+/dev/nvme0n1p1              256M   89M  168M  35% /boot/efi
+master:/srv/cluster_shared  615G   70G  515G  12% /srv/cluster_shared
+  exit=0  duration=
+
+── node8 (172.16.12.63) ✓ OK ──
+  stdout: Filesystem                  Size  Used Avail Use% Mounted on
+/dev/nvme0n1p5              128G   23G   99G  19% /
+efivarfs                    246K  143K   99K  60% /sys/firmware/efi/efivars
+/dev/nvme0n1p1              256M   94M  163M  37% /boot/efi
+/dev/nvme0n1p6              482G  1.1G  457G   1% /home
+master:/srv/cluster_shared  615G   70G  515G  12% /srv/cluster_shared
+  exit=0  duration=
+
+── node9 (172.16.12.245) ✓ OK ──
+  stdout: Filesystem                  Size  Used Avail Use% Mounted on
+/dev/nvme0n1p5              126G   19G  100G  16% /
+efivarfs                    246K  171K   71K  71% /sys/firmware/efi/efivars
+/dev/nvme0n1p6              485G  592M  460G   1% /home
+/dev/nvme0n1p1              256M   89M  168M  35% /boot/efi
+master:/srv/cluster_shared  615G   70G  515G  12% /srv/cluster_shared
+  exit=0  duration=
+
+── node10 (172.16.12.71) ✓ OK ──
+  stdout: Filesystem                  Size  Used Avail Use% Mounted on
+/dev/nvme0n1p4              132G   20G  105G  17% /
+efivarfs                    246K  146K   96K  61% /sys/firmware/efi/efivars
+/dev/nvme0n1p5              473G  495M  449G   1% /home
+/dev/nvme0n1p1              256M   94M  163M  37% /boot/efi
+master:/srv/cluster_shared  615G   70G  515G  12% /srv/cluster_shared
+  exit=0  duration=
+
+── node11 (172.16.12.64) ✓ OK ──
+  stdout: Filesystem                  Size  Used Avail Use% Mounted on
+/dev/nvme0n1p5              128G   23G   99G  19% /
+efivarfs                    246K  162K   80K  67% /sys/firmware/efi/efivars
+/dev/nvme0n1p6              487G  273M  462G   1% /home
+/dev/nvme0n1p1              256M   89M  168M  35% /boot/efi
+master:/srv/cluster_shared  615G   70G  515G  12% /srv/cluster_shared
+  exit=0  duration=
+
+── node12 (172.16.12.69) ✓ OK ──
+  stdout: Filesystem                  Size  Used Avail Use% Mounted on
+/dev/nvme0n1p4              127G   21G  100G  17% /
+efivarfs                    246K  150K   92K  62% /sys/firmware/efi/efivars
+/dev/nvme0n1p5              489G  369M  464G   1% /home
+/dev/nvme0n1p1              256M   94M  163M  37% /boot/efi
+master:/srv/cluster_shared  615G   70G  515G  12% /srv/cluster_shared
+  exit=0  duration=
+
+── node13 (172.16.12.62) ✓ OK ──
+  stdout: Filesystem                  Size  Used Avail Use% Mounted on
+/dev/nvme0n1p5              129G   21G  103G  17% /
+efivarfs                    246K  170K   72K  71% /sys/firmware/efi/efivars
+/dev/nvme0n1p6              471G  651M  446G   1% /home
+/dev/nvme0n1p1              256M   94M  163M  37% /boot/efi
+master:/srv/cluster_shared  615G   70G  515G  12% /srv/cluster_shared
+  exit=0  duration=
+
+── node14 (172.16.12.60) ✓ OK ──
+  stdout: Filesystem                  Size  Used Avail Use% Mounted on
+/dev/nvme0n1p5              127G   22G   99G  19% /
+efivarfs                    246K  171K   71K  71% /sys/firmware/efi/efivars
+/dev/nvme0n1p6              491G  512M  465G   1% /home
+/dev/nvme0n1p1              256M   89M  168M  35% /boot/efi
+master:/srv/cluster_shared  615G   70G  515G  12% /srv/cluster_shared
+  exit=0  duration=
+
+── master (172.16.12.90) ✓ OK ──
+  stdout: Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p5  615G   70G  515G  12% /
+efivarfs        246K  165K   77K  69% /sys/firmware/efi/efivars
+/dev/nvme0n1p1   96M   77M   20M  80% /boot/efi
+  exit=0  duration=
+
+── node15 (172.16.12.86) ✓ OK ──
+  stdout: Filesystem                  Size  Used Avail Use% Mounted on
+/dev/nvme0n1p5              131G   22G  103G  18% /
+efivarfs                    246K  179K   63K  75% /sys/firmware/efi/efivars
+/dev/nvme0n1p1              256M   89M  168M  35% /boot/efi
+/dev/nvme0n1p6              480G  1.2G  455G   1% /home
+master:/srv/cluster_shared  615G   70G  515G  12% /srv/cluster_shared
+  exit=0  duration=
+
+── node16 (172.16.12.65) ✓ OK ──
+  stdout: Filesystem                  Size  Used Avail Use% Mounted on
+/dev/nvme0n1p5              128G   21G  101G  17% /
+efivarfs                    246K  161K   81K  67% /sys/firmware/efi/efivars
+/dev/nvme0n1p1              256M  162M   95M  64% /boot/efi
+/dev/nvme0n1p6              482G  258M  458G   1% /home
+master:/srv/cluster_shared  615G   70G  515G  12% /srv/cluster_shared
+  exit=0  duration=
+
+── node17 (172.16.12.68) ✓ OK ──
+  stdout: Filesystem                  Size  Used Avail Use% Mounted on
+/dev/nvme0n1p5              128G   23G   99G  19% /
+efivarfs                    246K  174K   68K  73% /sys/firmware/efi/efivars
+/dev/nvme0n1p6              482G  2.3G  455G   1% /home
+/dev/nvme0n1p1              256M   90M  167M  35% /boot/efi
+master:/srv/cluster_shared  615G   70G  515G  12% /srv/cluster_shared
+  exit=0  duration=
+
+── node18 (172.16.12.97) ✓ OK ──
+  stdout: Filesystem                  Size  Used Avail Use% Mounted on
+/dev/nvme0n1p5              131G   21G  104G  17% /
+efivarfs                    246K  154K   88K  64% /sys/firmware/efi/efivars
+/dev/nvme0n1p1              256M   98M  159M  39% /boot/efi
+/dev/nvme0n1p6              485G  951M  459G   1% /home
+master:/srv/cluster_shared  615G   70G  515G  12% /srv/cluster_shared
+  exit=0  duration=
+
+── node19 (172.16.12.7) ✓ OK ──
+  stdout: Filesystem                  Size  Used Avail Use% Mounted on
+/dev/nvme0n1p5              129G   20G  103G  16% /
+efivarfs                    246K  149K   93K  62% /sys/firmware/efi/efivars
+/dev/nvme0n1p1              256M   94M  163M  37% /boot/efi
+/dev/nvme0n1p6              483G  1.6G  457G   1% /home
+master:/srv/cluster_shared  615G   70G  515G  12% /srv/cluster_shared
+  exit=0  duration=
+
+── node20 (172.16.12.20) ✓ OK ──
+  stdout: Filesystem                  Size  Used Avail Use% Mounted on
+/dev/nvme0n1p5              126G   22G   98G  19% /
+efivarfs                    246K  148K   94K  62% /sys/firmware/efi/efivars
+/dev/nvme0n1p6              485G  1.2G  459G   1% /home
+/dev/nvme0n1p1              256M   94M  163M  37% /boot/efi
+master:/srv/cluster_shared  615G   70G  515G  12% /srv/cluster_shared
+  exit=0  duration=
+
+── node21 (172.16.12.5) ✓ OK ──
+  stdout: Filesystem                  Size  Used Avail Use% Mounted on
+/dev/nvme0n1p5              131G   21G  104G  17% /
+efivarfs                    246K  158K   84K  66% /sys/firmware/efi/efivars
+/dev/nvme0n1p6              480G  2.1G  454G   1% /home
+/dev/nvme0n1p1              256M   94M  163M  37% /boot/efi
+master:/srv/cluster_shared  615G   70G  515G  12% /srv/cluster_shared
+  exit=0  duration=
+
+── node22 (172.16.12.32) ✓ OK ──
+  stdout: Filesystem                  Size  Used Avail Use% Mounted on
+/dev/nvme0n1p5              110G   46G   59G  44% /
+efivarfs                    246K  143K   99K  60% /sys/firmware/efi/efivars
+/dev/nvme0n1p1              256M   94M  163M  37% /boot/efi
+/dev/nvme0n1p6               87G  3.3G   79G   4% /home
+master:/srv/cluster_shared  615G   70G  515G  12% /srv/cluster_shared
+  exit=0  duration=
+
+── node23 (172.16.12.146) ✓ OK ──
+  stdout: Filesystem                  Size  Used Avail Use% Mounted on
+/dev/nvme0n1p5              129G   22G  101G  18% /
+efivarfs                    246K  146K   96K  61% /sys/firmware/efi/efivars
+/dev/nvme0n1p1              256M   89M  168M  35% /boot/efi
+/dev/nvme0n1p6              484G  1.1G  458G   1% /home
+master:/srv/cluster_shared  615G   70G  515G  12% /srv/cluster_shared
+  exit=0  duration=
+
+════════════════════════════════════════════════════════════
+SUMMARY: 24 total | 24 succeeded | 0 failed | 0 unreachable | 0 timed out | 0 retried
+════════════════════════════════════════════════════════════
+
+Log written: logs/run_20260331T000440_cd555d.json

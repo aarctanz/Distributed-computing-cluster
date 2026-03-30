@@ -1,0 +1,216 @@
+  stdout: Architecture:                            x86_64
+Model name:                              12th Gen Intel(R) Core(TM) i7-12700
+Model:                                   151
+Thread(s) per core:                      2
+Core(s) per socket:                      12
+Socket(s):                               1
+CPU max MHz:                             4900.0000
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-19
+  stdout: Architecture:                            x86_64
+Model name:                              12th Gen Intel(R) Core(TM) i7-12700
+Model:                                   151
+Thread(s) per core:                      2
+Core(s) per socket:                      12
+Socket(s):                               1
+CPU max MHz:                             4900.0000
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-19
+  stdout: Architecture:                            x86_64
+Model name:                              12th Gen Intel(R) Core(TM) i7-12700
+Model:                                   151
+Thread(s) per core:                      2
+Core(s) per socket:                      12
+Socket(s):                               1
+CPU max MHz:                             4900.0000
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-19
+  stdout: Architecture:                            x86_64
+Model name:                              12th Gen Intel(R) Core(TM) i7-12700
+Model:                                   151
+Thread(s) per core:                      2
+Core(s) per socket:                      12
+Socket(s):                               1
+CPU max MHz:                             4900.0000
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-19
+  stdout: Architecture:                            x86_64
+Model name:                              12th Gen Intel(R) Core(TM) i7-12700
+Model:                                   151
+Thread(s) per core:                      2
+Core(s) per socket:                      12
+Socket(s):                               1
+CPU max MHz:                             4900.0000
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-19
+  stdout: Architecture:                            x86_64
+Model name:                              12th Gen Intel(R) Core(TM) i7-12700
+Model:                                   151
+Thread(s) per core:                      2
+Core(s) per socket:                      12
+Socket(s):                               1
+CPU max MHz:                             4900.0000
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-19
+  stdout: Architecture:                            x86_64
+Model name:                              12th Gen Intel(R) Core(TM) i7-12700
+Model:                                   151
+Thread(s) per core:                      2
+Core(s) per socket:                      12
+Socket(s):                               1
+CPU max MHz:                             4900.0000
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-19
+  stdout: Architecture:                            x86_64
+Model name:                              12th Gen Intel(R) Core(TM) i7-12700
+Model:                                   151
+Thread(s) per core:                      2
+Core(s) per socket:                      12
+Socket(s):                               1
+CPU max MHz:                             4900.0000
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-19
+  stdout: Architecture:                            x86_64
+Model name:                              12th Gen Intel(R) Core(TM) i7-12700
+Model:                                   151
+Thread(s) per core:                      2
+Core(s) per socket:                      12
+Socket(s):                               1
+CPU max MHz:                             4900.0000
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-19
+  stdout: Architecture:                            x86_64
+Model name:                              12th Gen Intel(R) Core(TM) i7-12700
+Model:                                   151
+Thread(s) per core:                      2
+Core(s) per socket:                      12
+Socket(s):                               1
+CPU max MHz:                             4900.0000
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-19
+  stdout: Architecture:                            x86_64
+Model name:                              12th Gen Intel(R) Core(TM) i7-12700
+Model:                                   151
+Thread(s) per core:                      2
+Core(s) per socket:                      12
+Socket(s):                               1
+CPU max MHz:                             4900.0000
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-19
+  stdout: Architecture:                            x86_64
+Model name:                              12th Gen Intel(R) Core(TM) i7-12700
+Model:                                   151
+Thread(s) per core:                      2
+Core(s) per socket:                      12
+Socket(s):                               1
+CPU max MHz:                             4900.0000
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-19
+  stdout: Architecture:                            x86_64
+Model name:                              12th Gen Intel(R) Core(TM) i7-12700
+Model:                                   151
+Thread(s) per core:                      2
+Core(s) per socket:                      12
+Socket(s):                               1
+CPU max MHz:                             4900.0000
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-19
+  stdout: Architecture:                            x86_64
+Model name:                              12th Gen Intel(R) Core(TM) i7-12700
+Model:                                   151
+Thread(s) per core:                      2
+Core(s) per socket:                      12
+Socket(s):                               1
+CPU max MHz:                             4900.0000
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-19
+  stdout: Architecture:                            x86_64
+Model name:                              12th Gen Intel(R) Core(TM) i7-12700
+Model:                                   151
+Thread(s) per core:                      2
+Core(s) per socket:                      12
+Socket(s):                               1
+CPU max MHz:                             4900.0000
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-19
+  stdout: Architecture:                         x86_64
+Model name:                           12th Gen Intel(R) Core(TM) i7-12700
+Model:                                151
+Thread(s) per core:                   2
+Core(s) per socket:                   12
+Socket(s):                            1
+CPU max MHz:                          4900.0000
+NUMA node(s):                         1
+NUMA node0 CPU(s):                    0-19
+  stdout: Architecture:                         x86_64
+Model name:                           12th Gen Intel(R) Core(TM) i7-12700
+Model:                                151
+Thread(s) per core:                   2
+Core(s) per socket:                   12
+Socket(s):                            1
+CPU max MHz:                          4900.0000
+NUMA node(s):                         1
+NUMA node0 CPU(s):                    0-19
+  stdout: Architecture:                         x86_64
+Model name:                           12th Gen Intel(R) Core(TM) i7-12700
+Model:                                151
+Thread(s) per core:                   2
+Core(s) per socket:                   12
+Socket(s):                            1
+CPU max MHz:                          4900.0000
+NUMA node(s):                         1
+NUMA node0 CPU(s):                    0-19
+  stdout: Architecture:                         x86_64
+Model name:                           12th Gen Intel(R) Core(TM) i7-12700
+Model:                                151
+Thread(s) per core:                   2
+Core(s) per socket:                   12
+Socket(s):                            1
+CPU max MHz:                          4900.0000
+NUMA node(s):                         1
+NUMA node0 CPU(s):                    0-19
+  stdout: Architecture:                         x86_64
+Model name:                           12th Gen Intel(R) Core(TM) i7-12700
+Model:                                151
+Thread(s) per core:                   2
+Core(s) per socket:                   12
+Socket(s):                            1
+CPU max MHz:                          4900.0000
+NUMA node(s):                         1
+NUMA node0 CPU(s):                    0-19
+  stdout: Architecture:                         x86_64
+Model name:                           12th Gen Intel(R) Core(TM) i7-12700
+Model:                                151
+Thread(s) per core:                   2
+Core(s) per socket:                   12
+Socket(s):                            1
+CPU max MHz:                          4900.0000
+NUMA node(s):                         1
+NUMA node0 CPU(s):                    0-19
+  stdout: Architecture:                         x86_64
+Model name:                           12th Gen Intel(R) Core(TM) i7-12700
+Model:                                151
+Thread(s) per core:                   2
+Core(s) per socket:                   12
+Socket(s):                            1
+CPU max MHz:                          4900.0000
+NUMA node(s):                         1
+NUMA node0 CPU(s):                    0-19
+  stdout: Architecture:                         x86_64
+Model name:                           12th Gen Intel(R) Core(TM) i7-12700
+Model:                                151
+Thread(s) per core:                   2
+Core(s) per socket:                   12
+Socket(s):                            1
+CPU max MHz:                          4900.0000
+NUMA node(s):                         1
+NUMA node0 CPU(s):                    0-19
+  stdout: Architecture:                         x86_64
+Model name:                           12th Gen Intel(R) Core(TM) i7-12700
+Model:                                151
+Thread(s) per core:                   2
+Core(s) per socket:                   12
+Socket(s):                            1
+CPU max MHz:                          4900.0000
+NUMA node(s):                         1
+NUMA node0 CPU(s):                    0-19

@@ -1,0 +1,155 @@
+Run ID  : 20260330T232536_86441c
+Command : free -h | head
+Targets : 24 node(s)
+Sudo    : false
+────────────────────────────────────────────────────────────
+
+── node1 (172.16.12.162) ✓ OK ──
+  stdout:                total        used        free      shared  buff/cache   available
+Mem:            31Gi       1.6Gi        27Gi        97Mi       2.2Gi        29Gi
+Swap:          8.0Gi          0B       8.0Gi
+  exit=0  duration=
+
+── node2 (172.16.12.33) ✓ OK ──
+  stdout:                total        used        free      shared  buff/cache   available
+Mem:            31Gi       1.5Gi        28Gi        97Mi       1.5Gi        29Gi
+Swap:          8.0Gi          0B       8.0Gi
+  exit=0  duration=
+
+── node3 (172.16.12.189) ✓ OK ──
+  stdout:                total        used        free      shared  buff/cache   available
+Mem:            31Gi       1.5Gi        28Gi        44Mi       2.0Gi        29Gi
+Swap:          8.0Gi          0B       8.0Gi
+  exit=0  duration=
+
+── node4 (172.16.12.203) ✓ OK ──
+  stdout:                total        used        free      shared  buff/cache   available
+Mem:            31Gi       1.5Gi        28Gi        97Mi       1.9Gi        29Gi
+Swap:          8.0Gi          0B       8.0Gi
+  exit=0  duration=
+
+── node5 (172.16.12.105) ✓ OK ──
+  stdout:                total        used        free      shared  buff/cache   available
+Mem:            31Gi       1.7Gi        26Gi       178Mi       3.2Gi        29Gi
+Swap:          8.0Gi          0B       8.0Gi
+  exit=0  duration=
+
+── node6 (172.16.12.17) ✓ OK ──
+  stdout:                total        used        free      shared  buff/cache   available
+Mem:            31Gi       1.5Gi        27Gi       180Mi       2.1Gi        29Gi
+Swap:          8.0Gi          0B       8.0Gi
+  exit=0  duration=
+
+── node7 (172.16.12.82) ✓ OK ──
+  stdout:                total        used        free      shared  buff/cache   available
+Mem:            31Gi       1.7Gi        27Gi       126Mi       2.1Gi        29Gi
+Swap:          8.0Gi          0B       8.0Gi
+  exit=0  duration=
+
+── node8 (172.16.12.63) ✓ OK ──
+  stdout:                total        used        free      shared  buff/cache   available
+Mem:            31Gi       1.5Gi        28Gi        44Mi       1.4Gi        29Gi
+Swap:          8.0Gi          0B       8.0Gi
+  exit=0  duration=
+
+── node9 (172.16.12.245) ✓ OK ──
+  stdout:                total        used        free      shared  buff/cache   available
+Mem:            31Gi       1.3Gi        28Gi        44Mi       1.7Gi        29Gi
+Swap:          8.0Gi          0B       8.0Gi
+  exit=0  duration=
+
+── node10 (172.16.12.71) ✓ OK ──
+  stdout:                total        used        free      shared  buff/cache   available
+Mem:            31Gi       1.4Gi        28Gi        97Mi       2.0Gi        29Gi
+Swap:          8.0Gi          0B       8.0Gi
+  exit=0  duration=
+
+── node11 (172.16.12.64) ✓ OK ──
+  stdout:                total        used        free      shared  buff/cache   available
+Mem:            31Gi       1.3Gi        28Gi        44Mi       1.9Gi        29Gi
+Swap:          8.0Gi          0B       8.0Gi
+  exit=0  duration=
+
+── node12 (172.16.12.69) ✓ OK ──
+  stdout:                total        used        free      shared  buff/cache   available
+Mem:            31Gi       1.3Gi        27Gi        97Mi       2.5Gi        29Gi
+Swap:          8.0Gi          0B       8.0Gi
+  exit=0  duration=
+
+── node13 (172.16.12.62) ✓ OK ──
+  stdout:                total        used        free      shared  buff/cache   available
+Mem:            31Gi       1.4Gi        28Gi        97Mi       2.0Gi        29Gi
+Swap:          8.0Gi          0B       8.0Gi
+  exit=0  duration=
+
+── node14 (172.16.12.60) ✓ OK ──
+  stdout:                total        used        free      shared  buff/cache   available
+Mem:            31Gi       1.8Gi        27Gi       219Mi       2.7Gi        29Gi
+Swap:          8.0Gi          0B       8.0Gi
+  exit=0  duration=
+
+── master (172.16.12.90) ✓ OK ──
+  stdout:                total        used        free      shared  buff/cache   available
+Mem:            31Gi       3.2Gi        24Gi       267Mi       3.5Gi        27Gi
+Swap:          8.0Gi          0B       8.0Gi
+  exit=0  duration=
+
+── node15 (172.16.12.86) ✓ OK ──
+  stdout:                total        used        free      shared  buff/cache   available
+Mem:            31Gi       2.3Gi        23Gi       308Mi       5.8Gi        28Gi
+Swap:          8.0Gi          0B       8.0Gi
+  exit=0  duration=
+
+── node16 (172.16.12.65) ✓ OK ──
+  stdout:                total        used        free      shared  buff/cache   available
+Mem:            31Gi       2.4Gi        24Gi       434Mi       5.3Gi        28Gi
+Swap:          8.0Gi          0B       8.0Gi
+  exit=0  duration=
+
+── node17 (172.16.12.68) ✓ OK ──
+  stdout:                total        used        free      shared  buff/cache   available
+Mem:            31Gi       2.5Gi        23Gi       388Mi       5.8Gi        28Gi
+Swap:          8.0Gi          0B       8.0Gi
+  exit=0  duration=
+
+── node18 (172.16.12.97) ✓ OK ──
+  stdout:                total        used        free      shared  buff/cache   available
+Mem:            31Gi       2.5Gi        25Gi       420Mi       4.1Gi        28Gi
+Swap:          8.0Gi          0B       8.0Gi
+  exit=0  duration=
+
+── node19 (172.16.12.7) ✓ OK ──
+  stdout:                total        used        free      shared  buff/cache   available
+Mem:            31Gi       1.5Gi        27Gi       123Mi       2.9Gi        29Gi
+Swap:          8.0Gi          0B       8.0Gi
+  exit=0  duration=
+
+── node20 (172.16.12.20) ✓ OK ──
+  stdout:                total        used        free      shared  buff/cache   available
+Mem:            31Gi       1.7Gi        25Gi       194Mi       4.8Gi        29Gi
+Swap:          8.0Gi          0B       8.0Gi
+  exit=0  duration=
+
+── node21 (172.16.12.5) ✓ OK ──
+  stdout:                total        used        free      shared  buff/cache   available
+Mem:            31Gi       1.8Gi        24Gi       194Mi       5.8Gi        29Gi
+Swap:          8.0Gi          0B       8.0Gi
+  exit=0  duration=
+
+── node22 (172.16.12.32) ✓ OK ──
+  stdout:                total        used        free      shared  buff/cache   available
+Mem:            31Gi       1.6Gi        25Gi        96Mi       4.7Gi        29Gi
+Swap:          8.0Gi          0B       8.0Gi
+  exit=0  duration=
+
+── node23 (172.16.12.146) ✓ OK ──
+  stdout:                total        used        free      shared  buff/cache   available
+Mem:            31Gi       1.9Gi        26Gi       238Mi       3.7Gi        29Gi
+Swap:          8.0Gi          0B       8.0Gi
+  exit=0  duration=
+
+════════════════════════════════════════════════════════════
+SUMMARY: 24 total | 24 succeeded | 0 failed | 0 unreachable | 0 timed out | 0 retried
+════════════════════════════════════════════════════════════
+
+Log written: logs/run_20260330T232536_86441c.json

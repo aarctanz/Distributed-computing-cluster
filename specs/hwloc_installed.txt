@@ -1,0 +1,107 @@
+Run ID  : 20260331T001141_e3e6bb
+Command : lstopo --version 2>/dev/null || echo "hwloc not installed"
+Targets : 24 node(s)
+Sudo    : false
+────────────────────────────────────────────────────────────
+
+── node1 (172.16.12.162) ✓ OK ──
+  stdout: lstopo 2.10.0
+  exit=0  duration=
+
+── node2 (172.16.12.33) ✓ OK ──
+  stdout: lstopo 2.10.0
+  exit=0  duration=
+
+── node3 (172.16.12.189) ✓ OK ──
+  stdout: lstopo 2.10.0
+  exit=0  duration=
+
+── node4 (172.16.12.203) ✓ OK ──
+  stdout: lstopo 2.10.0
+  exit=0  duration=
+
+── node5 (172.16.12.105) ✓ OK ──
+  stdout: lstopo 2.10.0
+  exit=0  duration=
+
+── node6 (172.16.12.17) ✓ OK ──
+  stdout: lstopo 2.10.0
+  exit=0  duration=
+
+── node7 (172.16.12.82) ✓ OK ──
+  stdout: lstopo 2.10.0
+  exit=0  duration=
+
+── node8 (172.16.12.63) ✓ OK ──
+  stdout: lstopo 2.10.0
+  exit=0  duration=
+
+── node9 (172.16.12.245) ✓ OK ──
+  stdout: lstopo 2.10.0
+  exit=0  duration=
+
+── node10 (172.16.12.71) ✓ OK ──
+  stdout: lstopo 2.10.0
+  exit=0  duration=
+
+── node11 (172.16.12.64) ✓ OK ──
+  stdout: lstopo 2.10.0
+  exit=0  duration=
+
+── node12 (172.16.12.69) ✓ OK ──
+  stdout: lstopo 2.10.0
+  exit=0  duration=
+
+── node13 (172.16.12.62) ✓ OK ──
+  stdout: lstopo 2.10.0
+  exit=0  duration=
+
+── node14 (172.16.12.60) ✓ OK ──
+  stdout: lstopo 2.10.0
+  exit=0  duration=
+
+── master (172.16.12.90) ✓ OK ──
+  stdout: lstopo 2.10.0
+  exit=0  duration=
+
+── node15 (172.16.12.86) ✓ OK ──
+  stdout: lstopo 2.10.0
+  exit=0  duration=
+
+── node16 (172.16.12.65) ✓ OK ──
+  stdout: lstopo 2.10.0
+  exit=0  duration=
+
+── node17 (172.16.12.68) ✓ OK ──
+  stdout: lstopo 2.10.0
+  exit=0  duration=
+
+── node18 (172.16.12.97) ✓ OK ──
+  stdout: lstopo 2.10.0
+  exit=0  duration=
+
+── node19 (172.16.12.7) ✓ OK ──
+  stdout: lstopo 2.10.0
+  exit=0  duration=
+
+── node20 (172.16.12.20) ✓ OK ──
+  stdout: lstopo 2.10.0
+  exit=0  duration=
+
+── node21 (172.16.12.5) ✓ OK ──
+  stdout: lstopo 2.10.0
+  exit=0  duration=
+
+── node22 (172.16.12.32) ✓ OK ──
+  stdout: lstopo 2.10.0
+  exit=0  duration=
+
+── node23 (172.16.12.146) ✓ OK ──
+  stdout: lstopo 2.10.0
+  exit=0  duration=
+
+════════════════════════════════════════════════════════════
+SUMMARY: 24 total | 24 succeeded | 0 failed | 0 unreachable | 0 timed out | 0 retried
+════════════════════════════════════════════════════════════
+
+Log written: logs/run_20260331T001141_e3e6bb.json
